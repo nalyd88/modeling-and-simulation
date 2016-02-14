@@ -1,0 +1,23 @@
+# Test Map File
+#
+# Grid size (x,y) and size of cell area (arbitrary area unit)
+100 100 1
+# Define a block (start_x,start_y) to (stop_x,stop_y) of type t
+# Cell types:
+# 0       = Prohibited (default)
+# 1       = Walkway
+# 2       = Street
+# 4       = Crossing (can also be defined by overlapping 1 and 2)
+# 3 to 99 = Arbitrary (for specific use by simulator if needed)
+# 1XX     = Destination (can be multiple destinations)
+# 2XX     = Starting location (can be multiple starting points)
+45 00 50 99 1
+00 00 99 05 1
+00 48 45 50 1
+00 00 02 50 1
+00 09 99 19 2
+00 60 99 70 2
+00 00 00 05 100
+00 00 05 00 100
+99 00 99 05 101
+45 98 50 99 200

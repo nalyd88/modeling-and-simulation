@@ -63,3 +63,6 @@ target/
 
 #Don't load backup files created by emacs
 *.py~
+
+# PyCharm IDE
+/.idea
