@@ -49,9 +49,10 @@ if __name__ == "__main__":
     mean = 5
     stddev = 2
     nsamps = 100000
-    nbins = 500
+    nbins = int((2*nsamps)**(1./3))
 
     # Create the histogram of generated values
     x = gaussian_distribution(mu=mean, sigma=stddev, n=nsamps)
     plt.hist(x, bins=nbins, normed=True)
+    plt.grid(True)
     plt.show()
