@@ -1,8 +1,8 @@
 # Test Map File
 #
-# Grid size (x,y) and size of cell area (arbitrary area unit)
+# Grid size (rows, cols) and size of cell area (arbitrary area unit)
 100 100 1
-# Define a block (start_x,start_y) to (stop_x,stop_y) of type t
+# Define a block (start_row,start_col) to (stop_row,stop_col) of type t
 # Cell types:
 # 0       = Prohibited (default)
 # 1       = Walkway

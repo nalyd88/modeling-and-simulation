@@ -1,7 +1,7 @@
 # Test Map File
 #
 # Grid size (rows, cols) and size of cell area (arbitrary area unit)
-100 100 1
+4 4 1
 # Define a block (start_row,start_col) to (stop_row,stop_col) of type t
 # Cell types:
 # 0       = Prohibited (default)
@@ -11,13 +11,10 @@
 # 3 to 99 = Arbitrary (for specific use by simulator if needed)
 # 1XX     = Destination (can be multiple destinations)
 # 2XX     = Starting location (can be multiple starting points)
-45 00 50 99 1
-00 00 99 05 1
-00 48 45 50 1
-00 00 02 50 1
-00 09 99 19 2
-00 60 99 70 2
-00 00 00 05 100
-00 00 05 00 100
-99 00 99 05 101
-45 99 50 99 200
+0 0 0 3 1
+0 0 3 0 1
+3 0 3 3 1
+3 3 0 3 1
+2 2 2 2 1
+0 0 0 0 100
+3 3 3 3 200
