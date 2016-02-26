@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+
+\bibitem{SayamaBook}
+H.~Sayama, {\em Introduction to the modeling and analysis of complex systems}.
+\newblock State University of New York at Geneseo: Open SUNY Textbooks, Milne
+  Library, 2015.
+
+\bibitem{blue2001cellular}
+V.~J. Blue and J.~L. Adler, ``Cellular automata microsimulation for modeling
+  bi-directional pedestrian walkways,'' {\em Transportation Research Part B:
+  Methodological}, vol.~35, no.~3, pp.~293--312, 2001.
+
+\bibitem{ji2013simulation}
+L.~Ji, Y.~Qian, J.~Zeng, M.~Wang, D.~Xu, Y.~Yan, and S.~Feng, ``Simulation of
+  evacuation characteristics using a 2-dimensional cellular automata model for
+  pedestrian dynamics,'' {\em Journal of Applied Mathematics}, vol.~2013, 2013.
+
+\bibitem{burstedde2001simulation}
+C.~Burstedde, K.~Klauck, A.~Schadschneider, and J.~Zittartz, ``Simulation of
+  pedestrian dynamics using a two-dimensional cellular automaton,'' {\em
+  Physica A: Statistical Mechanics and its Applications}, vol.~295, no.~3,
+  pp.~507--525, 2001.
+
+\bibitem{kirchner2003simulation}
+A.~Kirchner, H.~Kl{\"u}pfel, K.~Nishinari, A.~Schadschneider, and
+  M.~Schreckenberg, ``Simulation of competitive egress behavior: comparison
+  with aircraft evacuation data,'' {\em Physica A: Statistical Mechanics and
+  its Applications}, vol.~324, no.~3, pp.~689--697, 2003.
+
+\bibitem{varas2007cellular}
+A.~Varas, M.~Cornejo, D.~Mainemer, B.~Toledo, J.~Rogan, V.~Munoz, and
+  J.~Valdivia, ``Cellular automaton model for evacuation process with
+  obstacles,'' {\em Physica A: Statistical Mechanics and its Applications},
+  vol.~382, no.~2, pp.~631--642, 2007.
+
+\bibitem{jolly2008pedestrain}
+A.~Jolly, R.~Oleson~II, and D.~Kaup, ``Pedestrain cellular automata and
+  industrial process simulation,'' in {\em Proceedings of the 20th European
+  Modeling and Simulation Symposium}, EMSS 2008, 2008.
+
+\bibitem{robinson2013conceptual}
+S.~Robinson, ``Conceptual modeling for simulation,'' in {\em Simulation
+  Conference (WSC), 2013 Winter}, pp.~377--388, IEEE, 2013.
+
+\bibitem{Dodd:Misc}
+``Bobby dodd stadium.''
+  \url{http://www.ramblinwreck.com/genrel/071001aaa.html}.
+
+\bibitem{young1999evaluation}
+S.~Young, ``Evaluation of pedestrian walking speeds in airport terminals,''
+  {\em Transportation Research Record: Journal of the Transportation Research
+  Board}, no.~1674, pp.~20--26, 1999.
+
+\end{thebibliography}
