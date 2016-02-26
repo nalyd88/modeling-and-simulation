@@ -1,16 +1,21 @@
 #!/usr/bin/env python
 # This program simulates the flow of people leaving a starting point and heading
 # to their desired locations. The simulation is based on Cellular Automata (CA).
-# Dylan Crocker
+# Dylan A. Crocker
 # CSE 6730 Project 1
-# Due: Feb. 26, 2016
+# Due: March 4, 2016
+
+
+# Imports -------------------------------------------------------------------- #
 
 
 from pylab import *
 import collections
 
 
-# Global Constants ----------------------------------------------------------- #
+# Constants ------------------------------------------------------------------ #
+
+
 PROHIBITED_ID = 0   # Prohibited (non-walkway)
 WALKWAY_ID = 1      # Designated walkway
 STREET_ID = 2       # Street (prohibited for walking)
@@ -19,7 +24,9 @@ EXIT_ID = 4         # Cells representing exit points (destinations)
 ENTRY_ID = 5        # Entry cells (where pedestrians enter simulation_grid)
 EXIT_OFFSET = 100   # Offset used for integer ids of exit points (destinations)
 ENTRY_OFFSET = 200  # Offset used for integer ids of entry points
-# ---------------------------------------------------------------------------- #
+
+
+# Functions ------------------------------------------------------------------ #
 
 
 def min_rand(idum=0):
@@ -127,6 +134,30 @@ def generate_pedestrian_speeds(n_ped):
         if speed < speed_minimum:
             speeds[idx] = speed_minimum
     return speeds
+
+
+# Classes -------------------------------------------------------------------- #
+
+
+class Pedestrian(object):
+    """This class represents a pedestrian traveling in the walking_grid."""
+
+    def __init__(self, destination, speed=1):
+        self.speed = speed
+        self.destination = destination
+        self.coordinates = [0, 0]
+        self.moves = []
+        self.to_move = 0
+        self.uid = -1
+
+    def normalize_moves(self):
+        sum_probs = sum([m[0] for m in self.moves])
+        for i, m in enumerate(self.moves):
+            self.moves[i] = (m[0]/sum_probs, m[1], m[2], m[3])
+
+    def move(self, location):
+        self.coordinates = list(location)
+        self.moves = []
 
 
 class Cell(object):
@@ -404,27 +435,6 @@ class Grid(object):
             show()
 
 
-class Pedestrian(object):
-    """This class represents a pedestrian traveling in the walking_grid."""
-
-    def __init__(self, destination, speed=1):
-        self.speed = speed
-        self.destination = destination
-        self.coordinates = [0, 0]
-        self.moves = []
-        self.to_move = 0
-        self.uid = -1
-
-    def normalize_moves(self):
-        sum_probs = sum([m[0] for m in self.moves])
-        for i, m in enumerate(self.moves):
-            self.moves[i] = (m[0]/sum_probs, m[1], m[2], m[3])
-
-    def move(self, location):
-        self.coordinates = list(location)
-        self.moves = []
-
-
 class PedestrianExitSimulation(object):
     """This object encapsulates the entire simulation program."""
 
@@ -616,7 +626,10 @@ class PedestrianExitSimulation(object):
             self.observe(visual=True)
 
 
-if __name__ == "__main__":
+# ---------------------------------------------------------------------------- #
+
+
+def main():
 
     # Path to the map file
     map_path = "map_test_02.txt"
@@ -635,3 +648,10 @@ if __name__ == "__main__":
 
     # Run the simulation
     sim.run(niter)
+
+    return 0
+
+
+if __name__ == "__main__":
+    status = main()
+    sys.exit(status)
