@@ -6,6 +6,7 @@
 #
 
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def min_rand(seed=0):
@@ -48,4 +49,12 @@ if __name__ == "__main__":
     x = [min_rand(0) for i in range(n)]
     plt.hist(x, bins=nbins, normed=True)
     plt.grid(True)
+    plt.xlabel("Generated Numbers")
+    plt.ylabel("Normalized Frequency (PDF)")
     plt.show()
+
+    # Perform Chi-Squared Test
+    E = 1
+    O, bin_edges = np.histogram(x, bins=nbins, normed=True)
+    Am = sum(O*E/E)
+    print(Am, nbins)
