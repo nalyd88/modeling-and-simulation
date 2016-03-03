@@ -7,6 +7,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.stats import norm
 import random
 
 
@@ -40,19 +41,26 @@ def gaussian(mu=0, sigma=1):
 
 def gaussian_distribution(mu=0, sigma=1, n=100):
     """Create a list of random numbers from a Gaussian distribution."""
-    return [gaussian(mu, sigma) for i in range(n)]
+    return [gaussian(mu, sigma) for _ in range(n)]
 
 
 if __name__ == "__main__":
 
     # Test the distribution
-    mean = 5
-    stddev = 2
+    mean = 0
+    stddev = 1
     nsamps = 100000
     nbins = int((2*nsamps)**(1./3))
+
+    # Plot theoretical distribution
+    pdf_range = np.arange(-6, 6, 0.001)
+    pdf = norm.pdf(pdf_range, mean, stddev)
 
     # Create the histogram of generated values
     x = gaussian_distribution(mu=mean, sigma=stddev, n=nsamps)
     plt.hist(x, bins=nbins, normed=True)
+    plt.plot(pdf_range, pdf, linewidth=2, color='r')
     plt.grid(True)
+    plt.ylabel("PDF")
+    plt.xlabel("Random Values")
     plt.show()
