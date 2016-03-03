@@ -1,0 +1,63 @@
+# Grid size (rows, cols) and size of cell area (arbitrary area unit)
+700 900 0.5
+# Define a block (start_row,start_col) to (stop_row,stop_col) of type t
+# Cell types:
+# 0       = Prohibited (default)
+# 1       = Walkway
+# 2       = Street
+# 3       = Crossing (can also be defined by overlapping 1 and 2)
+# 4 to 5  = Reserved
+# 6 to 99 = Arbitrary (for specific use by simulator if needed)
+# 1XX     = Destination (can be multiple destinations)
+# 2XX     = Starting location (can be multiple starting points)
+#
+# Walkways
+#
+ 50   0  46 899   1 # North sidewalk along North Ave
+  4   0   0 899   1 # South sidewalk along North Ave
+699   0  46   4   1 # West sidewalk along Cherry St
+699  36  46  40   1 # East sidewalk along Cherry St
+699   0 695 899   1 # North sidewalk along Bobby Dodd Way
+663  36 659 899   1 # South sidewalk along Bobby Dodd Way
+699 615   0 619   1 # West sidewalk along Techwood Dr
+663 651   0 655   1 # East sidewalk along Techwood Dr
+658 400 608 500   1 # Walk area at North stadium entrance
+ 75 574  50 614   1 # Walk area at south east stadium entrance
+ 75 445  50 465   1 # South stadium entrance walkway
+#
+# Streets
+#
+ 45   0   5 899   2 # North Ave
+694   5  45  35   2 # Cherry St
+694   5 664 899   2 # Bobby Dodd Way
+699 620   0 650   2 # Techwood Dr
+699 100 499 130   2 # Powerplant Dr
+529 100 499 255   2 # Powerplant Dr
+663 225 499 255   2 # Powerplant Dr
+699 450 664 480   2 # Brittain Dr
+699 200 690 230   2 # Substation Dr
+699 295 690 325   2 # Fowler St
+#
+# Crossings
+#
+694 325 664 330 3 # Bobby Dodd Way Crossing at Fowler St
+ 45 375   5 380 3 # North Ave crossing
+694 445 664 449 3 # West crossing at Brittian Dr
+694 481 664 485 3 # East crossing at Brittian Dr
+#
+# Destinations
+#
+699   0 679   4 100 # Side walk opening in north west corner
+ 50   0   0   4 101 # South West corner of map
+ 50 894   0 899 102 # South East corner of map
+699 660 695 670 103 # Housing at the North east Corner of the map
+#
+# Stadium Exits/Entrances
+#
+# 75 574  75 614 200 # South-East stadium entrance
+# 75 445  75 465 201 # South stadium entrance
+607 420 607 480 202 # North entrance
+#
+# Other
+#
+607 300  75 614   6 # Show Stadium Outline
