@@ -51,4 +51,13 @@ S.~Young, ``Evaluation of pedestrian walking speeds in airport terminals,''
   {\em Transportation Research Record: Journal of the Transportation Research
   Board}, no.~1674, pp.~20--26, 1999.
 
+\bibitem{press1996numerical}
+W.~H. Press, S.~A. Teukolsky, W.~T. Vetterling, and B.~P. Flannery, {\em
+  Numerical recipes in C}, vol.~2.
+\newblock Cambridge university press, 1996.
+
+\bibitem{Navidi2008Stats}
+W.~Navidi, {\em Statistics for Engineers and Scientists}.
+\newblock McGraw-Hill, 2~ed., 2008.
+
 \end{thebibliography}
