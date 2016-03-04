@@ -9,7 +9,12 @@
 # Imports -------------------------------------------------------------------- #
 
 
-from pylab import *
+import os
+import sys
+import time
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
 import collections
 
 
@@ -127,7 +132,7 @@ def generate_pedestrian_speeds(n_ped):
     :return: List of normally distributed walking speeds.
     """
     speed_mu = 1.34        # Average pedestrian walking speed (m/s)
-    speed_sigma = 0.87     # Std. Dev. of walking speeds (m/s)
+    speed_sigma = 0.265    # Std. Dev. of walking speeds (m/s)
     speed_minimum = 0.153  # Minimum walking speed (m/s)
     speeds = gaussian_distribution(speed_mu, speed_sigma, n_ped)
     for idx, speed in enumerate(speeds):
@@ -201,9 +206,13 @@ class Grid(object):
         self.pedestrians = []
         self.cell_len = 0.4  # Length of a cell (m)
 
-    def setup(self, map_file_path):
+    def setup(self, map_file_path, vis=False):
         self._build_from_map_file(map_file_path)
         self._calculate_floor_fields()
+        if vis:
+            self.show_map()
+            self.show_walking_map()
+            self.show_floor()
 
     def find_reachable_cells(self, loc, steps=1):
         """Find reachable cells given the walking distance (number of cells).
@@ -241,9 +250,7 @@ class Grid(object):
                         cells.add(cell)
                 starts.extendleft(neighbor_locations)
 
-        # Remove the original location?
-        #cells.remove(start_cell)  # What if the pedestrian wants to stand still?
-
+        # Keep the original location in the list!
         return list(cells)  # Return a list - not a hash table
 
     def _build_from_map_file(self, map_file_path):
@@ -265,15 +272,17 @@ class Grid(object):
                 map_line = fid.readline()
 
             # Read the header and get the number of nodes and edges.
-            r, c, a = [int(v) for v in map_line.split()]
+            r, c, a = [float(v) for v in map_line.split()]
+            r = int(r)
+            c = int(c)
 
-            # Create a walking_grid of prohibited cells
+            # Create a walking grid of prohibited cells
             self.cells = [[Cell((j, i)) for i in range(c)] for j in range(r)]
             self.size = (r, c)
 
             # initialize the walking_grid
-            self.walking_grid = zeros((r, c), dtype=int)
-            self.map = zeros((r, c), dtype=int)
+            self.walking_grid = np.zeros((r, c), dtype=int)
+            self.map = np.zeros((r, c), dtype=int)
 
             # Read each line of the map file
             for map_line in fid:
@@ -282,8 +291,12 @@ class Grid(object):
                 if map_line[0] == '#':
                     continue
 
+                values = [int(v) for v in map_line.split() if v.isdigit()]
+                if len(values) < 5:
+                    continue
+
                 # Parse the values from the line of text
-                sr, sc, er, ec, t = [int(v) for v in map_line.split()]
+                sr, sc, er, ec, t = values
 
                 # All the walking grid values default to prohibited. Update the
                 # cells to the types specified by the map file.
@@ -337,6 +350,11 @@ class Grid(object):
                             # Log the start and destination locations
                             self.entry_coordinates.append((row, col))
 
+                        # Unused grid cell ID
+                        else:
+                            if self.map[row, col] == PROHIBITED_ID:
+                                self.map[row, col] = t
+
     def _calculate_floor_fields(self):
         """Calculate the static floor fields for each destination (exit)"""
 
@@ -350,7 +368,7 @@ class Grid(object):
                     exit_loc.append(loc)
 
             # Initialize the floor field matrix
-            floor_field = ones(shape(self.walking_grid))*inf
+            floor_field = np.ones(np.shape(self.walking_grid))*np.inf
 
             # Keep a list of cells already mapped into the floor field
             mapped = set()
@@ -418,32 +436,37 @@ class Grid(object):
     def show_map(self):
         """Show a visual representation of the map."""
         print(self.map)
-        imshow(self.map, interpolation='nearest', origin='lower')
-        show()
+        plt.imshow(self.map, interpolation='nearest', origin='lower')
+        plt.show()
 
     def show_walking_map(self):
         """Show a visual representation of the walking map."""
         print(self.walking_grid)
-        imshow(self.walking_grid, interpolation='nearest', origin='lower')
-        show()
+        plt.imshow(self.walking_grid, interpolation='nearest', origin='lower')
+        plt.show()
 
     def show_floor(self):
         """Show a visual representation of the floor field(s)."""
         for field in self.floor_fields:
             print(field)
-            imshow(field, interpolation='nearest', origin='lower')
-            show()
+            plt.imshow(field, interpolation='nearest', origin='lower')
+            plt.show()
 
 
 class PedestrianExitSimulation(object):
     """This object encapsulates the entire simulation program."""
 
-    def __init__(self, map_file_path, pedestrian_count, rng_seed=0):
+    def __init__(self, map_file_path, pedestrian_count, rng_seed=0, log=True):
         min_rand(rng_seed)  # Seed the RNG so results can be reproduced
         self.map_file_path = map_file_path
         self.pedestrian_count = pedestrian_count
+        self.running_time = 0
+        self.observation_interval = 0
         self._pedestrian_queue = None
         self._grid = Grid()
+        self._first_log = False
+        self._logging = log
+        self._count_exits = 0
 
     def _queue_pedestrians(self):
         """Build a queue of pedestrian entities."""
@@ -455,12 +478,22 @@ class PedestrianExitSimulation(object):
         n = self.pedestrian_count
         speeds = generate_pedestrian_speeds(n)
 
+        # Log the pedestrians created
+        log_file = None
+        if self._logging:
+            if not os.path.exists("output"):
+                os.makedirs("output")
+            log_file = open("output/pedestrians.txt", "w+")
+
         # Create the queue
         self._pedestrian_queue = collections.deque()
         for pidx in range(0, n):
 
             # Randomly choose a destination
             destination = destinations[min_rand_int(0, len(destinations) - 1)]
+
+            if self._logging and log_file is not None:
+                log_file.write("{},{}".format(destination, speeds[pidx]) + '\n')
 
             # Enqueue a new pedestrian object
             self._pedestrian_queue.appendleft(
@@ -491,9 +524,9 @@ class PedestrianExitSimulation(object):
             # Calculate movement probability for each reachable cell
             dest_id = p.destination
             prow, pcol = p.coordinates
+            prev_potential = self._grid.floor_fields[dest_id][prow, pcol]
             for cell in cells:
                 i, j = cell.coordinates
-                prev_potential = self._grid.floor_fields[dest_id][prow, pcol]
                 new_potential = self._grid.floor_fields[dest_id][i, j]
                 prob = np.exp(prev_potential - new_potential)
 
@@ -510,8 +543,8 @@ class PedestrianExitSimulation(object):
 
         # Initialize the moves and probabilities grids
         nrows, ncols = self._grid.size
-        moves = [[None for j in range(ncols)] for i in range(nrows)]
-        probabilities = zeros(self._grid.size, dtype=float)
+        moves = [[None for _ in range(ncols)] for _ in range(nrows)]
+        probabilities = np.zeros(self._grid.size, dtype=float)
 
         # Implement an iterative process to determine moves
         pedestrians_to_move = collections.deque(self._grid.pedestrians)
@@ -563,21 +596,55 @@ class PedestrianExitSimulation(object):
         # self._grid.show_floor()
 
     def observe(self, visual=False):
-        """Observe"""
+        """Observe the state of the simulation."""
+
+        # Only observe the data t the specified time interval
+        if self.running_time % self.observation_interval != 0:
+            return
+
+        # Print some statistics to the screen
+        print("{} pedestrians exited the simulation".format(self._count_exits))
 
         # Get the current pedestrian locations
-        xs, ys = [], []
+        prows, pcols = [], []
         for ped in self._grid.pedestrians:
-            xs.append(ped.coordinates[1])  # column
-            ys.append(ped.coordinates[0])  # row
+            pcols.append(ped.coordinates[1])  # column
+            prows.append(ped.coordinates[0])  # row
 
-        # Write the state to file
+        # Log the current state of the simulation to file.
+        if self._logging:
+            if not os.path.exists("output"):
+                os.makedirs("output")
+            if self._first_log:
+                with open("output/log.txt", 'a') as log_file:
+                    if pcols:
+                        log_file.write(','.join(map(str, prows)) + '\n')
+                        log_file.write(','.join(map(str, pcols)) + '\n')
+            else:
+                with open("output/log.txt", "w+") as log_file:
+                    log_file.write(','.join(map(str, self._grid.size)) + '\n')
+                    if pcols:
+                        log_file.write(','.join(map(str, prows)) + '\n')
+                        log_file.write(','.join(map(str, pcols)) + '\n')
+                self._first_log = True
 
         if visual:
             # Plot the map with the pedestrians shown as dots over top
-            imshow(self._grid.map, interpolation='nearest', origin='lower')
-            scatter(x=xs, y=ys, c='r', s=100)
-            show()
+            map_colors = np.array(
+                [[0, 0, 0], [255, 255, 255], [0, 100, 255], [255, 150, 0],
+                 [255, 0, 0], [227, 0, 252], [0, 255, 50]], dtype=float
+            )
+            fig, a = plt.subplots()
+            a.xaxis.set_visible(False)
+            a.yaxis.set_visible(False)
+            plt.imshow(
+                self._grid.map, interpolation='nearest', origin='lower',
+                aspect='equal', cmap=mpl.colors.ListedColormap(map_colors/255)
+            )
+            plt.scatter(x=pcols, y=prows, c='r', s=5)
+            plt.ylim([0, self._grid.size[0] - 1])
+            plt.xlim([0, self._grid.size[1] - 1])
+            plt.show()
 
     def update(self, time_step=1):
         """Update the simulation state."""
@@ -585,8 +652,12 @@ class PedestrianExitSimulation(object):
         # Check for pedestrians who have arrived at the destination and remove
         # them from the list. Use a set for faster membership tests.
         exits = set(self._grid.exit_coordinates)
+        temp = len(self._grid.pedestrians)
         self._grid.pedestrians[:] = [p for p in self._grid.pedestrians
                                      if tuple(p.coordinates) not in exits]
+        self._count_exits += temp - len(self._grid.pedestrians)
+
+        # TODO: Update traffic signals
 
         # Determine the pedestrian movements
         moves = self._calculate_moves(time_step)
@@ -617,13 +688,33 @@ class PedestrianExitSimulation(object):
 
     def run(self, max_time_steps=100):
         """Execute the simulation loop."""
+
+        # Initialize the simulation (queue pedestrians, create grid, etc.)
         self.initialize()
-        self.observe()
-        for t in range(1, max_time_steps):  # Time steps are once a second
-            self.update()
-            if len(self._grid.pedestrians) == 0:
-                break
+
+        # Update wth time_step = 0 to place initial pedestrians in the model
+        self.update(time_step=0)
+
+        # Observe the model (logging and visualizations)
+        self.observe(visual=False)
+
+        # The simulation loops until all pedestrians have reached their
+        # respective destinations.
+        self.running_time = 0
+        while len(self._grid.pedestrians) > 0:
+
+            # Update the model (move pedestrians, add more pedestrians, etc.)
+            self.update(time_step=1)  # Time steps are once a second
+
+            # Observe the model (logging and visualizations)
             self.observe(visual=True)
+
+            # Count the steps (seconds)
+            self.running_time += 1
+            # print(self.running_time)
+            if self.running_time > max_time_steps:
+                print("Max simulation iterations reached.")
+                break
 
 
 # ---------------------------------------------------------------------------- #
@@ -632,23 +723,35 @@ class PedestrianExitSimulation(object):
 def main():
 
     # Path to the map file
-    map_path = "map_test_02.txt"
+    map_path = "src/GT_Boddy_Dodd_South_Map.txt"
+    print("Starting simulation with {} map file.".format(map_path))
 
     # Number of pedestrians to simulate
-    n_pedestrians = 100
+    n_pedestrians = 20000
 
     # Seed the RNG
-    seed_rng = 34643
+    seed_rng = 7862
 
     # Create a simulator object.
-    sim = PedestrianExitSimulation(map_path, n_pedestrians, seed_rng)
+    # Set log=True to generate output files.
+    sim = PedestrianExitSimulation(
+        map_path, n_pedestrians, seed_rng, log=False
+    )
 
-    # Number of iterations
-    niter = 200
+    # Set the visualization/logging interval (steps)
+    sim.observation_interval = 20000
+
+    # Maximum number of iterations
+    max_iter = 200000
+
+    # Time the simulation
+    start_time = time.time()
 
     # Run the simulation
-    sim.run(niter)
+    sim.run(max_iter)
 
+    print("Simulation done after {} time steps.".format(sim.running_time))
+    print("Simulation run time = {} seconds".format(time.time() - start_time))
     return 0
 
 
