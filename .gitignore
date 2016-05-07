@@ -66,6 +66,7 @@ target/
 
 # PyCharm IDE
 /.idea
+.idea
 
 # Latex files
 *.aux
