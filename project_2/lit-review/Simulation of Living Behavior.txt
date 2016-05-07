@@ -1,0 +1,16 @@
+weight, gender, age, etc. -> oxygen consumption -> heart rate
+                           ^                         |
+                           |                         V 
+                           oxygen supply    <-  cardiac output
+
+MET: a metabolic measure equivalent to 3.5 ml of oxygen per kilogram of body mass per minute (3.5 ml/kg/min). One MET is the resting level of metabolic activity for the average person.
+
+Stroke volume is then estimated by dividing the cardiac output by heart rate.
+
+In the cardiovascular model, heart rate is driven by oxygen need.
+
+the level of exercise combined with the body mass of the subject determines how much oxygen is needed, and heart rate will increase or decrease to meet this need
+
+Cardiac Output = Stroke Volume × Heart Rate
+
+

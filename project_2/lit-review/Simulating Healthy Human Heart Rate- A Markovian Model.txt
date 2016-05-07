@@ -1,0 +1,4 @@
+The authors created a probability table from real life data sets. 
+The table is used to create the synthetic RR output.
+They created a function to represent random REM cycles during sleep.
+This is not a full simulation as much as randomly generating RR intervals from a probability table.

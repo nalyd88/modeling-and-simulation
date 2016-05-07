@@ -1,0 +1,28 @@
+; Example input file for heart rate simulator.
+; This file is based on the INI file format.
+[human]
+age=30
+gender=male
+mass=80
+resting_heart_rate=60
+vo2max=12
+[activity1]
+start=0
+duration=10
+type=sleep
+met=0.92
+[activity2]
+start=20
+duration=5
+type=run
+met=4
+[activity3]
+start=25
+duration=20
+type=weights
+met=4
+[activity4]
+start=50
+duration=5
+type=run_from_zombies
+met=12

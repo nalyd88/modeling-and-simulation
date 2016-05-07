@@ -1,0 +1,22 @@
+A dynamical model for generating synthetic electrocardiogram signals
+Source code here
+http://www.physionet.org/physiotools/ecgsyn/paper/index.shtml
+
+
+This model may be employed to assess biomedical signal processing techniques which are used to compute clinical statistics from the ECG.
+
+Having the ability to vary ECG signal parameters like noise level and sample rate will allow researchers to test ECG signal processing techniques and algorithms for specific situations.
+More thoroughly test algorithms under specific conditions
+
+Each beat of the heart can be observed as a series of deflections away from the baseline on the ECG. 
+
+This paper gives a great description of the electrical phenomena behind each characteristic dip or peak in the ECG signal.
+
+They model the ECG signal as a 3-D periodic signal going around in a circle. the amplitude (z direction) of the signal changes to represent the events during the cycle. the locations of these events are determined by angles (locations in the circle). 
+3-D state space
+
+Variations in the length of the RR interval can be achieved by varying the angular velocity at which the signal travels around the circle.
+
+The operator can select specific characteristics about the HR such as mean, SD, and spectral properties like LF/HF ratio (corresponds to HRV).
+
+Having access to a realistic ECG provides a benchmark for testing numerous biomedical signal processing techniques. In order to establish the operational properties of these techniques in a clinical setting, it is important to know how they perform for different noise levels and sampling frequencies.

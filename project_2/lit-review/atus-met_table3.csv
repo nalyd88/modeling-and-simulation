@@ -1,0 +1,356 @@
+Major Category,General Category,Specific Category,Summary MET value
+01 Personal Care,01 Sleeping,01 Sleeping,0.92
+01 Personal Care,01 Sleeping,02 Sleeplessness,1.00
+01 Personal Care,01 Sleeping,"99 Sleeping, n.e.c.",0.94
+01 Personal Care,02 Grooming,"01 Washing, dressing and grooming oneself",2.10
+01 Personal Care,02 Grooming,"99 Grooming, n.e.c.",2.10
+01 Personal Care,03 Health-related Self Care,01 Health-related self care,1.29
+01 Personal Care,03 Health-related Self Care,"99 Self care, n.e.c.",1.29
+01 Personal Care,04 Personal Activities,01 Personal/Private Activities,1.04
+01 Personal Care,04 Personal Activities,"99 Personal activities, n.e.c.",1.04
+01 Personal Care,05 Personal Care Emergencies,01 Personal emergencies,1.52
+01 Personal Care,05 Personal Care Emergencies,"99 Personal care, emergencies, n.e.c.",1.52
+02 Household Activities,01 Housework,01 Interior Cleaning,3.01
+02 Household Activities,01 Housework,02 Laundry,2.07
+02 Household Activities,01 Housework,"03 Sewing, repairing, and maintaining textiles",1.50
+02 Household Activities,01 Housework,"04 Storing interior HH items, including food",3.39
+02 Household Activities,01 Housework,"99 Housework, n.e.c.",2.51
+02 Household Activities,"02 Food and Drink Preparation, Presentation, and Clean-up",01 Food and drink preparation,2.16
+02 Household Activities,"02 Food and Drink Preparation, Presentation, and Clean-up",02 Food presentation,2.38
+02 Household Activities,"02 Food and Drink Preparation, Presentation, and Clean-up",03 Kitchen and Food Clean-Up,2.54
+02 Household Activities,"02 Food and Drink Preparation, Presentation, and Clean-up","99 Food and drink prep, presentation, and clean-up, n.e.c",2.32
+02 Household Activities,"03 Interior Maintenance, Repair, and Decoration","01 Interior arrangement, decoration, and repairs",3.33
+02 Household Activities,"03 Interior Maintenance, Repair, and Decoration",02 Building and repairing furniture,4.25
+02 Household Activities,"03 Interior Maintenance, Repair, and Decoration",03 Heating and cooling,4.42
+02 Household Activities,"03 Interior Maintenance, Repair, and Decoration","99 Interior maintenance, repair and decoration, n.e.c.",3.85
+02 Household Activities,"04 Exterior Maintenance, Repair and Decoration",01 Exterior Cleaning,3.93
+02 Household Activities,"04 Exterior Maintenance, Repair and Decoration","02 Exterior repair, improvements, and decoration",4.75
+02 Household Activities,"04 Exterior Maintenance, Repair and Decoration","99 Exterior maintenance, repair and decoration, n.e.c.",4.49
+02 Household Activities,"05 Lawn, Garden, and Houseplants","01 Lawn, Garden, and Houseplants",3.66
+02 Household Activities,"05 Lawn, Garden, and Houseplants","02 Ponds, pools, and hot tubs",2.64
+02 Household Activities,"05 Lawn, Garden, and Houseplants","99 Lawn and garden, n.e.c.",3.45
+02 Household Activities,06 Animals and pets,01 Care for animals and pets (not veterinary care),2.72
+02 Household Activities,06 Animals and pets,"99 Pet and animal care, n.e.c.",2.72
+02 Household Activities,07 Vehicles,01 Vehicle repair and maintenance (by self),2.93
+02 Household Activities,07 Vehicles,"99 Vehicles, n.e.c.",2.93
+02 Household Activities,08 Appliance and Tools,"01 Appliance and tool set-up, repair, and maintenance (by self)",2.98
+02 Household Activities,08 Appliance and Tools,"99 Appliances and tools, n.e.c.",2.98
+02 Household Activities,09 HH Management,01 Financial management,1.80
+02 Household Activities,09 HH Management,02 HH personal organization and planning,2.11
+02 Household Activities,09 HH Management,03 HH and personal mail and messages (except e-mail),1.90
+02 Household Activities,09 HH Management,04 HH and personal e-mail and messages,1.80
+02 Household Activities,09 HH Management,05 Home Security,2.88
+02 Household Activities,09 HH Management,"99 HH management, n.e.c.",2.13
+02 Household Activities,"99 HH Activities, n.e.c.","99 HH activities, n.e.c.",2.93
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,01 Physical care for HH children,2.67
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,02 Reading to/with HH children,1.30
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,"03 Playing with HH children, not sports",3.26
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,04 Arts and crafts with HH children,1.50
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,05 Playing sports with HH children,5.00
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,06 Talking with/listening to HH children,1.50
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,07 Helping/teaching HH children (not related to education),2.64
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,08 Organization and planning for HH children,1.81
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,09 Looking after HH children (as a primary activity),1.71
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,10 Attending HH children's events,1.50
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,11 Waiting for/with HH children,1.30
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,12 Picking up/dropping off HH children,2.00
+03 Caring for and Helping HH Members,01 Caring for and Helping HH Children,"99 Caring for and helping HH children, n.e.c.",2.21
+03 Caring for and Helping HH Members,02 Activities Related to HH Children's Education,01 Homework (HH children),1.66
+03 Caring for and Helping HH Members,02 Activities Related to HH Children's Education,02 Meetings and school conferences (HH children),1.53
+03 Caring for and Helping HH Members,02 Activities Related to HH Children's Education,03 Home schooling of HH children,1.50
+03 Caring for and Helping HH Members,02 Activities Related to HH Children's Education,04 Waiting associated with HH children's education,1.30
+03 Caring for and Helping HH Members,02 Activities Related to HH Children's Education,"99 Activities related to HH children's education, n.e.c.",1.57
+03 Caring for and Helping HH Members,03 Activities related to HH Children's Health,01 Providing medical care to HH children,2.50
+03 Caring for and Helping HH Members,03 Activities related to HH Children's Health,02 Obtaining medical care for HH children,1.50
+03 Caring for and Helping HH Members,03 Activities related to HH Children's Health,03 Waiting associated with HH children's health,1.30
+03 Caring for and Helping HH Members,03 Activities related to HH Children's Health,"99 Activities related to HH children's health, n.e.c.",2.03
+03 Caring for and Helping HH Members,04 Caring for HH Adults,01 Physical care for HH adults,2.89
+03 Caring for and Helping HH Members,04 Caring for HH Adults,02 Looking after HH adult (as primary activity),2.00
+03 Caring for and Helping HH Members,04 Caring for HH Adults,03 Providing medical care to HH adult,2.50
+03 Caring for and Helping HH Members,04 Caring for HH Adults,04 Obtaining medical and care services for HH adult,1.50
+03 Caring for and Helping HH Members,04 Caring for HH Adults,05 Waiting associated with caring for HH adults,1.30
+03 Caring for and Helping HH Members,04 Caring for HH Adults,"99 Caring for and helping HH adult, n.e.c.",2.16
+03 Caring for and Helping HH Members,05 Helping HH Adults,01 Helping HH adults,2.05
+03 Caring for and Helping HH Members,05 Helping HH Adults,02 Organization and planning for HH adults,1.68
+03 Caring for and Helping HH Members,05 Helping HH Adults,03 Picking up/dropping off HH adult,2.00
+03 Caring for and Helping HH Members,05 Helping HH Adults,04 Waiting associated with helping HH adults,1.50
+03 Caring for and Helping HH Members,05 Helping HH Adults,"99 Helping HH adults, n.e.c.",1.81
+03 Caring for and Helping HH Members,"99 Caring for and Helping HH Members, n.e.c.","99 Caring for and Helping HH Members, n.e.c.",2.08
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,01 Physical care for nonHH children,2.72
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,02 Reading to/with nonHH children,1.30
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,"03 Playing with nonHH children, not sports",3.30
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,04 Arts and crafts with nonHH children,1.50
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,05 Playing sports with nonHH children,5.00
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,06 Talking with/listening to HH children,1.50
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,07 Helping/teaching nonHH children (not related to education),2.64
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,08 Organization and planning for nonHH children,1.84
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,09 Looking after nonHH children (as a primary activity),1.67
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,10 Attending nonHH children's events,1.50
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,11 Waiting for/with nonHH children,1.30
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,12 Dropping off/picking up nonHH children,1.00
+04 Caring for and Helping nonHH Members,01 Caring for and Helping nonHH Children,"99 Caring for and helping nonHH children, n.e.c.",2.16
+04 Caring for and Helping nonHH Members,02 Activities Related to nonHH Children's Education,01 Homework (nonHH children),1.66
+04 Caring for and Helping nonHH Members,02 Activities Related to nonHH Children's Education,02 Meetings and school conferences (nonHH children),1.53
+04 Caring for and Helping nonHH Members,02 Activities Related to nonHH Children's Education,03 Home schooling of nonHH children,1.50
+04 Caring for and Helping nonHH Members,02 Activities Related to nonHH Children's Education,04 Waiting associated with nonHH children's education,1.30
+04 Caring for and Helping nonHH Members,02 Activities Related to nonHH Children's Education,"99 Activities related to nonHH child's education, n.e.c.",1.57
+04 Caring for and Helping nonHH Members,03 Activities related to nonHH Children's Health,01 Providing medical care to nonHH children,2.50
+04 Caring for and Helping nonHH Members,03 Activities related to nonHH Children's Health,02 Obtaining medical care for nonHH children,1.50
+04 Caring for and Helping nonHH Members,03 Activities related to nonHH Children's Health,03 Waiting associated with nonHH children's health,1.30
+04 Caring for and Helping nonHH Members,03 Activities related to nonHH Children's Health,"99 Activities related to nonHH child's health, n.e.c.",2.03
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,01 Physical care for nonHH adults,2.89
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,02 Looking after nonHH adult (as primary activity),2.00
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,03 Providing medical care services for nonHH adult,2.50
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,04 Obtaining medical and care services for nonHH adult,1.50
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,05 Waiting associated with caring for nonHH adults,1.30
+04 Caring for and Helping nonHH Members,04 Caring for nonHH Adults,"99 Caring for nonHH adult, n.e.c.",2.16
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,"01 Housework, cooking, and shopping assistance for nonhh adults",2.38
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,02 House & lawn maintenance and repair assistance for nonhh adults,4.30
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,03 Animal and pet care assistance for nonHH adults,3.00
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,04 Vehicle & appliance maintenance/repair assistance for nonHH adults,3.33
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,05 Financial Management assistance for nonHH adults,1.80
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,06 HH management and paperwork assistance for nonhh adults,1.74
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,07 Picking up/dropping off nonHH adult,2.00
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,08 Waiting associated with helping nonHH adults,1.50
+04 Caring for and Helping nonHH Members,05 Helping nonHH Adults,"99 Helping nonHH adults, n.e.c.",2.64
+04 Caring for and Helping nonHH Members,99 Caring for and Helping nonHH Members,"99 Caring for and helping nonHH members, n.e.c.",2.18
+06 Education,01 Taking classes,01 Taking classes: degree,1.82
+06 Education,01 Taking classes,02 Taking classes: personal interest,2.40
+06 Education,01 Taking classes,03 Waiting associated with taking classes,1.80
+06 Education,01 Taking classes,04 Security procedures related to taking classes,2.33
+06 Education,01 Taking classes,"99 Taking classes, n.e.c.",2.23
+06 Education,02 Extracurricular School Activities (Except Sports),01 Extracurricular club activities,1.63
+06 Education,02 Extracurricular School Activities (Except Sports),02 Extracurricular music and performance activities,2.50
+06 Education,02 Extracurricular School Activities (Except Sports),03 Extracurricular student government activities,1.90
+06 Education,02 Extracurricular School Activities (Except Sports),"99 Education-related extracurricular activities, n.e.c.",1.84
+06 Education,03 Research/Homework,01 Research/homework: class for degree,1.80
+06 Education,03 Research/Homework,02 Research/homework: class for personal interest,1.80
+06 Education,03 Research/Homework,03 Waiting associated with research/homework,1.00
+06 Education,03 Research/Homework,"99 Research/homework, n.e.c.",1.75
+06 Education,04 Registration/Administrative activities,01 Administrative activities:  class for degree,1.90
+06 Education,04 Registration/Administrative activities,02 Administrative activities: class for personal interest,2.00
+06 Education,04 Registration/Administrative activities,03 Waiting associated with administrative activities (education),2.00
+06 Education,04 Registration/Administrative activities,"99 Administrative for education, n.e.c.",1.96
+06 Education,"99 Education, n.e.c.","99 Education, n.e.c.",2.02
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)",01 Grocery shopping,2.10
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)",02 Purchasing gas,2.10
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)",03 Purchasing food (not groceries),2.33
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)","04 Shopping, except groceries, food, and gas",2.21
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)",05 Waiting associated with shopping,1.20
+07 Consumer Purchases,"01 Shopping (Store, Telephone, Internet)","99 Shopping, n.e.c.",2.16
+07 Consumer Purchases,02 Researching Purchases,01 Comparison shopping,1.90
+07 Consumer Purchases,02 Researching Purchases,"99 Researching purchases, n.e.c.",1.90
+07 Consumer Purchases,03 Security Procedures Related to Consumer Purchases,01 Security procedures related to consumer purchases,2.33
+07 Consumer Purchases,03 Security Procedures Related to Consumer Purchases,"99 Security procedures related to consumer purchases, n.e.c.",2.33
+07 Consumer Purchases,"99 Consumer Purchases, n.e.c.","99 Consumer purchases, n.e.c.",2.15
+08 Professional and Personal Care Services,01 Childcare Services,01 Using paid childcare services,1.91
+08 Professional and Personal Care Services,01 Childcare Services,02 Waiting associated with purchasing childcare services,1.30
+08 Professional and Personal Care Services,01 Childcare Services,"99 Using paid childcare services, n.e.c.",1.86
+08 Professional and Personal Care Services,02 Financial Services and Banking,01 Banking,1.84
+08 Professional and Personal Care Services,02 Financial Services and Banking,02 Using other financial services,1.53
+08 Professional and Personal Care Services,02 Financial Services and Banking,03 Waiting associated with banking/financial services,1.20
+08 Professional and Personal Care Services,02 Financial Services and Banking,"99 Using financial services and banking, n.e.c.",1.67
+08 Professional and Personal Care Services,03 Legal Services,01 Using legal services,1.65
+08 Professional and Personal Care Services,03 Legal Services,02 Waiting associated with legal services,1.30
+08 Professional and Personal Care Services,03 Legal Services,"99 Using legal services, n.e.c.",1.60
+08 Professional and Personal Care Services,04 Medical and Care Services,01 Using health and care services outside the home,1.50
+08 Professional and Personal Care Services,04 Medical and Care Services,02 Using in-home health and care services,1.50
+08 Professional and Personal Care Services,04 Medical and Care Services,03 Waiting associated with medical services,1.80
+08 Professional and Personal Care Services,04 Medical and Care Services,"99 Using medical services, n.e.c.",1.53
+08 Professional and Personal Care Services,05 Personal Care Services,01 Using personal care services,1.18
+08 Professional and Personal Care Services,05 Personal Care Services,02 Waiting associated with personal care services,1.30
+08 Professional and Personal Care Services,05 Personal Care Services,"99 Using personal care services, n.e.c.",1.19
+08 Professional and Personal Care Services,06 Real Estate,01 Activities related to purchasing/selling real estate,2.02
+08 Professional and Personal Care Services,06 Real Estate,02 Waiting associated with purchasing/selling real estate,1.30
+08 Professional and Personal Care Services,06 Real Estate,"99 Using real estate services, n.e.c.",1.98
+08 Professional and Personal Care Services,07 Veterinary Services (excluding grooming),01 Using veterinary services,1.84
+08 Professional and Personal Care Services,07 Veterinary Services (excluding grooming),02 Waiting associated with veterinary services,1.30
+08 Professional and Personal Care Services,07 Veterinary Services (excluding grooming),"99 Using veterinary services, n.e.c.",1.75
+08 Professional and Personal Care Services,08 Security Procedures Related to Professional/Personal Services,01 Security procedures related to professional/personal services,2.33
+08 Professional and Personal Care Services,08 Security Procedures Related to Professional/Personal Services,"99 Security procedures related to professional/personal services, n.e.c.",2.33
+08 Professional and Personal Care Services,"99 Professional and Personal Services, n.e.c.","99 Professional and personal services, n.e.c.",1.68
+09 HH Services,01 HH Services (not done by self),01 Using interior cleaning services,1.56
+09 HH Services,01 HH Services (not done by self),02 Using meal preparation services,1.62
+09 HH Services,01 HH Services (not done by self),03 Using clothing repair and cleaning services,2.00
+09 HH Services,01 HH Services (not done by self),04 Waiting associated with using HH services,1.53
+09 HH Services,01 HH Services (not done by self),"99 Using HH services, n.e.c.",1.70
+09 HH Services,"02 Home Maintenance, Repair, Decoration, and Construction (not done by self)","01 Using home maintenance, repair, decoration, and construction services",1.54
+09 HH Services,"02 Home Maintenance, Repair, Decoration, and Construction (not done by self)",02 Waiting associated with home maintenance/repair/decoration/construction,1.65
+09 HH Services,"02 Home Maintenance, Repair, Decoration, and Construction (not done by self)","99 Using home maintenance, repair, decoration, construction svcs, n.e.c.",1.55
+09 HH Services,"03 Pet Services (not done by self, not vet)",01 Using pet services,1.66
+09 HH Services,"03 Pet Services (not done by self, not vet)",02 Waiting associated with pet services,1.77
+09 HH Services,"03 Pet Services (not done by self, not vet)","99 Using pet services, n.e.c.",1.68
+09 HH Services,04 Lawn and Garden Services (not done by self),01 Using lawn and garden services,1.50
+09 HH Services,04 Lawn and Garden Services (not done by self),02 Waiting associated with using lawn and garden services,1.30
+09 HH Services,04 Lawn and Garden Services (not done by self),"99 Using lawn and garden services, n.e.c.",1.47
+09 HH Services,05 Vehicle Maintenance and Repair Services (not done by self),01 Using vehicle maintenance or repair services,1.75
+09 HH Services,05 Vehicle Maintenance and Repair Services (not done by self),02 Waiting associated with vehicle maintenance or repair services,1.53
+09 HH Services,05 Vehicle Maintenance and Repair Services (not done by self),"99 Using vehicle maintenance and repair services, n.e.c.",1.68
+09 HH Services,"99 HH Services, n.e.c.","99 Using HH services, n.e.c.",1.61
+10 Government Services and Civic Obligations,01 Using Government Services,01 Using police and fire services,1.72
+10 Government Services and Civic Obligations,01 Using Government Services,02 Using social services,1.71
+10 Government Services and Civic Obligations,01 Using Government Services,"03 Obtaining licenses and paying fines, fees, taxes",1.87
+10 Government Services and Civic Obligations,01 Using Government Services,"99 Using government services, n.e.c.",1.78
+10 Government Services and Civic Obligations,02 Civic Obligations and Participation,01 Civic obligations and participation,1.65
+10 Government Services and Civic Obligations,02 Civic Obligations and Participation,"99 Civic obligations and participation, n.e.c.",1.65
+10 Government Services and Civic Obligations,03 Waiting Associated with Government Services or Civic Obligations,01 Waiting associated with using police/fire services,2.00
+10 Government Services and Civic Obligations,03 Waiting Associated with Government Services or Civic Obligations,02 Waiting associated with obtaining licenses,2.00
+10 Government Services and Civic Obligations,03 Waiting Associated with Government Services or Civic Obligations,03 Waiting associated with civic obligations and participation,2.00
+10 Government Services and Civic Obligations,03 Waiting Associated with Government Services or Civic Obligations,"99 Waiting associated with government services or civic obligations, n.e.c.",2.00
+10 Government Services and Civic Obligations,04 Security Procedures Related to Government Services/Civic Obligations,01 Security procedures related to government services/civic obligations,2.33
+10 Government Services and Civic Obligations,04 Security Procedures Related to Government Services/Civic Obligations,"99 Security procedures related to government services/civic obligations, n.e.c.",2.33
+10 Government Services and Civic Obligations,"99 Government Services, n.e.c.","99 Government services, n.e.c.",1.78
+11 Eating and Drinking,01 Eating and Drinking,01 Eating and drinking,1.50
+11 Eating and Drinking,01 Eating and Drinking,"99 Eating and drinking, n.e.c.",1.50
+11 Eating and Drinking,02 Waiting associated with eating and drinking,01 Waiting associated with eating and drinking at home,2.00
+11 Eating and Drinking,02 Waiting associated with eating and drinking,02 Waiting assoc. w/eating and drinking at restaurant/bar/place of purchase,1.67
+11 Eating and Drinking,02 Waiting associated with eating and drinking,03 Waiting associated with eating and drinking in transit,1.00
+11 Eating and Drinking,02 Waiting associated with eating and drinking,04 Elsewhere (same as 110299),1.67
+11 Eating and Drinking,02 Waiting associated with eating and drinking,99 Elsewhere (same as 110204),1.67
+11 Eating and Drinking,99 Waiting associated with eating and drinking,"99 Eating and drinking, n.e.c.",1.83
+"12 Socializing, Relaxing and Leisure",01 Socializing and Communicating,01 Socializing and communicating with others,1.50
+"12 Socializing, Relaxing and Leisure",01 Socializing and Communicating,"99 Socializing and communicating, n.e.c.",1.50
+"12 Socializing, Relaxing and Leisure",02 Attending or Hosting Social Events,01 Attending or hosting parties/receptions/ceremonies,1.86
+"12 Socializing, Relaxing and Leisure",02 Attending or Hosting Social Events,02 Attending meetings for personal interest (not volunteering),1.50
+"12 Socializing, Relaxing and Leisure",02 Attending or Hosting Social Events,"99 Attending/hosting social events, n.e.c.",1.64
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,"01 Relaxing, thinking",1.21
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,02 Tobacco and drug use,1.13
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,03 Television and movies (not religious),1.33
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,04 Television (religious),1.00
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,05 Listening to the radio,1.15
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,06 Listening to/playing music (not radio),1.38
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,07 Playing games,1.50
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,08 Computer use for leisure (except games),1.90
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,09 Arts and crafts as a hobby,2.18
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,10 Collecting as a hobby,1.70
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,"11 Hobbies, except arts and crafts and collecting",2.15
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,12 Reading for personal interest,1.60
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,13 Writing for personal interest,1.80
+"12 Socializing, Relaxing and Leisure",03 Relaxing and Leisure,"99 Relaxing and leisure, n.e.c.",1.54
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),01 Attending performing arts,1.50
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),02 Attending museums,2.10
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),03 Attending movies/film,2.10
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),04 Attending gambling establishments,2.30
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),05 Security procedures related to arts and entertainment,2.33
+"12 Socializing, Relaxing and Leisure",04 Arts and Entertainment (other than sports),"99 Arts and entertainment, n.e.c.",1.63
+"12 Socializing, Relaxing and Leisure","05 Waiting associated with socializing, relaxing and leisure",01 Waiting associated with socializing and communicating,1.30
+"12 Socializing, Relaxing and Leisure","05 Waiting associated with socializing, relaxing and leisure",02 Waiting associated with attending/hosting social events,1.30
+"12 Socializing, Relaxing and Leisure","05 Waiting associated with socializing, relaxing and leisure",03 Waiting associated with relaxing/leisure,1.30
+"12 Socializing, Relaxing and Leisure","05 Waiting associated with socializing, relaxing and leisure",04 Waiting associated with arts and entertainment,1.30
+"12 Socializing, Relaxing and Leisure","05 Waiting associated with socializing, relaxing and leisure","99 Waiting associated with socializing, n.e.c.",1.30
+"12 Socializing, Relaxing and Leisure","99 Socializing, Relaxing and Leisure, n.e.c.","99 Socializing, relaxing, and leisure, n.e.c.",1.62
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",01 Doing Aerobics,6.83
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",02 Playing baseball,5.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",03 Playing basketball,8.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",04 Biking,8.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",05 Playing billiards,2.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",06 Boating,4.64
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",07 Bowling,3.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation","08 Climbing, spelunking, caving",9.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",09 Dancing,4.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",10 Participating in equestrian sports,5.33
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",11 Fencing,6.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",12 Fishing,4.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",13 Playing football,8.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",14 Golfing,3.75
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",15 Doing Gymnastics,4.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",16 Hiking,6.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",17 Playing hockey,8.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",18 Hunting,4.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",19 Participating in martial arts,10.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",20 Playing racquet sports,8.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",21 Participating in rodeo competitions,6.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",22 Rollerblading,6.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",23 Playing rugby,10.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",24 Running,7.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation","25 Skiing, ice skating, snowboarding",7.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",26 Playing soccer,7.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",27 Softball,5.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",28 Using cardiovascular equipment,8.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",29 Vehicle touring/racing,3.30
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",30 Playing volleyball,5.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",31 Walking,3.80
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",32 Participating in water sports,5.22
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",33 Weightlifting/strength training,3.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation","34 Working out, unspecified",2.50
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",35 Wrestling,6.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation",36 Doing yoga,3.00
+"13 Sports, Exercise, and Recreation","01 Participating in Sports, Exercise, or Recreation","99 Playing sports, n.e.c.",5.10
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,01 Watching aerobics,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,02 Watching baseball,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,03 Watching basketball,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,04 Watching biking,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,05 Watching billiards,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,06 Watching boating,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,07 Watching bowling,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,"08 Watching climbing, spelunking, caving",1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,09 Watching dancing,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,10 Watching equestrian sports,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,11 Watching fencing,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,12 Watching fishing,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,13 Watching football,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,14 Watching golfing,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,15 Watching gymnastics,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,16 Watching hockey,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,17 Watching martial arts,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,18 Watching racquet sports,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,19 Watching rodeo competitions,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,20 Watching rollerblading,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,21 Watching rugby,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,22 Watching running,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,"23 Watching skiing, ice skating, snowboarding",1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,24 Watching soccer,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,25 Watching softball,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,26 Watching vehicle touring/racing,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,27 Watching volleyball,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,28 Watching walking,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,29 Watching water sports,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,30 Watching weightlifting/strength training,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,"31 Watching people working out, unspecified",1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,32 Watching wrestling,1.50
+13 Attending Sporting/Recreational Events,02 Attending Sporting/Recreational Events,"99 Attending sporting events, n.e.c.",1.50
+13 Attending Sporting/Recreational Events,"03 Waiting Associated with Sports, Exercise, and Recreation",01 Waiting related to playing sports or exercising,1.50
+13 Attending Sporting/Recreational Events,"03 Waiting Associated with Sports, Exercise, and Recreation",02 Waiting related to attending sporting events,1.50
+13 Attending Sporting/Recreational Events,"03 Waiting Associated with Sports, Exercise, and Recreation","99 Waiting associated with sports, exercise, and recreation, n.e.c.",1.50
+13 Attending Sporting/Recreational Events,"04 Security Procedures Related to Sports, Exercise and Recreation",01 Security related to playing sports or exercising,2.33
+13 Attending Sporting/Recreational Events,"04 Security Procedures Related to Sports, Exercise and Recreation",02 Security related to attending sporting events,2.33
+13 Attending Sporting/Recreational Events,"04 Security Procedures Related to Sports, Exercise and Recreation","99 Security related to sports, exercise, and recreation, n.e.c.",2.33
+13 Attending Sporting/Recreational Events,"99 Sports, exercise and recreation, n.e.c.","99 Sports, exercise and recreation, n.e.c.",4.78
+14 Religious and Spiritual Activities,01 Religious/Spiritual Practices,01 Attending religious services,1.42
+14 Religious and Spiritual Activities,01 Religious/Spiritual Practices,02 Participation in religious practices,1.89
+14 Religious and Spiritual Activities,01 Religious/Spiritual Practices,03 Waiting associated with religious and spiritual activities,1.50
+14 Religious and Spiritual Activities,01 Religious/Spiritual Practices,04 Security procedures related to religious and spiritual activities,2.33
+14 Religious and Spiritual Activities,"99 Religious and Spiritual Activities, n.e.c.","99 Religious and spiritual activities, n.e.c.",1.75
+15 Volunteer Activities,01 Administrative and Support Activities,01 Computer use,1.50
+15 Volunteer Activities,01 Administrative and Support Activities,02 Organizing and preparing,1.50
+15 Volunteer Activities,01 Administrative and Support Activities,03 Reading,1.50
+15 Volunteer Activities,01 Administrative and Support Activities,04 Telephone calls (except hotline counseling),1.50
+15 Volunteer Activities,01 Administrative and Support Activities,05 Writing,1.50
+15 Volunteer Activities,01 Administrative and Support Activities,06 Fundraising,1.70
+15 Volunteer Activities,01 Administrative and Support Activities,"99 Administrative and support activities, n.e.c.",1.55
+15 Volunteer Activities,02 Social Service and Care Activities (Except Medical),"01 Food preparation, presentation, clean-up",2.45
+15 Volunteer Activities,02 Social Service and Care Activities (Except Medical),02 Collecting and delivering clothing and other goods,2.65
+15 Volunteer Activities,02 Social Service and Care Activities (Except Medical),03 Providing care,2.25
+15 Volunteer Activities,02 Social Service and Care Activities (Except Medical),"04 Teaching, leading, counseling, mentoring",2.14
+15 Volunteer Activities,02 Social Service and Care Activities (Except Medical),"99 Social Service and care activities, n.e.c.",1.97
+15 Volunteer Activities,"03 Indoor and Outdoor Maintenance, Building, and Clean-Up Activities","01 Building houses, wildlife sites, and other structures",4.50
+15 Volunteer Activities,"03 Indoor and Outdoor Maintenance, Building, and Clean-Up Activities","02 Indoor and outdoor maintenance, repair, and clean-up",3.56
+15 Volunteer Activities,"03 Indoor and Outdoor Maintenance, Building, and Clean-Up Activities","99 Indoor & outdoor maintenance, building & clean-up activities, n.e.c.",3.82
+15 Volunteer Activities,04 Participating in Performance and Cultural Activities,01 Performing,2.92
+15 Volunteer Activities,04 Participating in Performance and Cultural Activities,02 Serving at volunteer events and cultural activities,1.83
+15 Volunteer Activities,04 Participating in Performance and Cultural Activities,"99 Participating in performance and cultural activities, n.e.c.",2.51
+15 Volunteer Activities,"05 Attending Meetings, Conferences, and Training","01 Attending meetings, conferences, and training",1.50
+15 Volunteer Activities,"05 Attending Meetings, Conferences, and Training","99 Attending meetings, conferences, and training, n.e.c.",1.50
+15 Volunteer Activities,06 Public Health and Safety Activities,01 Public health activities,2.00
+15 Volunteer Activities,06 Public Health and Safety Activities,02 Public safety activities,2.50
+15 Volunteer Activities,06 Public Health and Safety Activities,"99 Public health and safety activities, n.e.c.",2.25
+15 Volunteer Activities,"99 Volunteer Activities, n.e.c.","99 Volunteer activities, n.e.c.",2.29
+16 Telephone Calls,01 Telephone calls (to or from),01 Telephone calls to/from family members,1.50
+16 Telephone Calls,01 Telephone calls (to or from),"02 Telephone calls to/from friends, neighbors, or acquaintance",1.50
+16 Telephone Calls,01 Telephone calls (to or from),03 Telephone calls to/from education services providers,1.50
+16 Telephone Calls,01 Telephone calls (to or from),04 Telephone calls to/from salespeople,1.50
+16 Telephone Calls,01 Telephone calls (to or from),05 Telephone calls to/from professional or personal care services providers,1.50
+16 Telephone Calls,01 Telephone calls (to or from),06 Telephone calls to/from HH services providers,1.50
+16 Telephone Calls,01 Telephone calls (to or from),07 Telephone calls to/from paid child or adult care providers,1.50
+16 Telephone Calls,01 Telephone calls (to or from),08 Telephone calls to/from government officials,1.50
+16 Telephone Calls,"99 Telephone Calls, n.e.c.","99 Telephone Calls, n.e.c.",1.50

@@ -1,0 +1,24 @@
+Major Category,ATUS Place/Transit Variable TEWHERE,Compendium Major Heading,Compendium Specific Activity Number,Compendium Description,Summary MET Value
+17 Travelling,01 DP's home or yard,17,150,"walking, household walking",2.00
+17 Travelling,02 DP's workplace,11,792,"walking on job, 3.0 mph, in office, moderate speed, not carrying anything",3.30
+17 Travelling,03 Someone else's home,17,150,"walking, household walking",2.00
+17 Travelling,04 Restaurant/Bar,17,152,"walking, 2.0 mph, level, slow pace, firm surface",2.50
+17 Travelling,05 Place of worship ,17,152,"walking, 2.0 mph, level, slow pace, firm surface",2.50
+17 Travelling,06 Grocery store,05,060,"food shopping with or without a grocery cart, standing or walking",2.30
+17 Travelling,07 Other store/Mall,05,065,"non-food shopping, standing or walking",2.30
+17 Travelling,08 School,17,270,walking to class,4.00
+17 Travelling,09 Outdoors away from home,17,161,"walking from house, to car or bus, from car or bus to go places, from car or bus to and from the worksite ",2.50
+17 Travelling,10 Library,17,152,"walking, 2.0 mph, level, slow pace, firm surface",2.50
+17 Travelling,11 Other place (not specified),N/A,N/A,average MET values for TEWHERE 01-10,2.59
+17 Travelling,"12 Car, truck, or motorcycle (driver)",16,010,automobile or light truck (not a semi) driving,2.00
+17 Travelling,"13 Car, truck, or motorcycle (passenger) ",16,015,riding in a car or truck,1.00
+17 Travelling,14 Walking,17,161,"walking from house to car or bus, from car or bus to go places, from car or bus to and from the worksite",2.50
+17 Travelling,15 Bus,16,015,riding in a car or truck,1.00
+17 Travelling,16 Subway/Train,16,015,riding in a car or truck,1.00
+17 Travelling,17 Bicycle,01,015,"bicycling, general",8.00
+17 Travelling,18 Boat/Ferry,16,015,riding in a car or truck,1.00
+17 Travelling,19 Taxi/Limousine Service,16,015,riding in a car or truck,1.00
+17 Travelling,20 Airplane,16,015,riding in a car or truck,1.00
+17 Travelling,21 Other mode of transportation,N/A,N/A,average MET values for TEWHERE 12-20,2.06
+17 Travelling,89 Unspecified place,N/A,N/A,average MET values for TEWHERE 01-10,2.59
+17 Travelling,99 Unspecified mode of transportation,N/A,N/A,average MET values for TEWHERE 12-20,2.06
