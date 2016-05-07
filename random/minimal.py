@@ -26,10 +26,11 @@ def min_rand(seed=0):
 
     # Only allow the generator to be seeded once
     if "seed" not in min_rand.__dict__:
-        # XORing with MASK allows use of zero and other simple bit patterns for
-        # seed.
-        min_rand.seed = seed ^ mask
-
+        min_rand.seed = seed
+    
+    # XORing with MASK allows use of zero and other simple bit patterns for seed.
+    min_rand.seed ^= mask
+      
     # Compute idum=(IA*idum) % IM without over-flows by Schrage's method.
     k = min_rand.seed/iq
     min_rand.seed = ia*(min_rand.seed - k*iq) - ir*k
